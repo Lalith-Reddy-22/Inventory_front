@@ -1,0 +1,89 @@
+.home {
+  background: linear-gradient(to bottom, #06129a, #0058a8, #0099e5);
+  min-height: 100vh;
+
+  & nav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: #ffffff;
+    & > .logo {
+      color: #fff;
+    }
+  }
+
+  .home-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & li a {
+      color: #fff;
+    }
+    
+    /* Change button color to pink */
+    & button {
+      background-color: rgb(245, 6, 149);
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+      margin-left: 1rem;
+    }
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .hero-text {
+    width: 50%;
+    & > * {
+      color: white;
+      margin-bottom: 2rem;
+    }
+    & > h2 span {
+      display: block;
+    }
+  }
+
+  .hero-image {
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .hero {
+      flex-direction: column;
+    }
+
+    .hero-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+    }
+  }
+  .hero-image {
+    width: 50%; /* Change the width of the container */
+    max-width: 50%; /* Set a maximum width */
+    margin-top: 100px;
+    margin-left: 100px;
+  
+    & img {
+      max-width: 100%; /* Set the maximum width of the image */
+      height: auto; /* Maintain the aspect ratio */
+      /* Add styles to decrease the image size as needed */
+      width: 100%; /* Decrease the width */
+    }
+  }
+  
+}

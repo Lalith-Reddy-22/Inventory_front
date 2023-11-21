@@ -1,0 +1,32 @@
+.product-summary {
+  width: 100%;
+  .info-summary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items horizontally */
+  }
+}
+
+.card1 {
+  background-color: #ff24af;
+  border-radius: 15px;
+  margin: 0 25px;
+}
+
+.card2 {
+  background-color: #1cc42f;
+  border-radius: 15px;
+  margin: 0 25px;
+}
+
+.card3 {
+  background-color: #f60449;
+  border-radius: 15px;
+  margin: 0 25px;
+}
+
+.card4 {
+  background-color: #fc03e7;
+  border-radius: 15px;
+  margin: 0 25px;
+}

@@ -1,0 +1,14 @@
+.card {
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #f7f7f7;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border-color: #999;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+}
